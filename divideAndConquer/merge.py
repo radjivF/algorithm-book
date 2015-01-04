@@ -1,12 +1,18 @@
 def merge(x, y):
     if len(x) == 0:
         return y
-    if len(y) == 0:
+    if len(y) == 0:      
         return x
+
+
+
     if x[0] <= y[0]:
         return [x[0]] + merge(x[1:], y)
     else:
         return [y[0]] + merge(x, y[1:])
+
+
+
 
 #Solution without slice and concat, which are O(n) in python
 def merge2(x, y):
@@ -19,6 +25,7 @@ def merge2(x, y):
     # 'merged' is required because the append method is in place
     merged = merge2(x, y)
     merged.append(last)
+
     return merged
 
 x = [2, 4, 6]
