@@ -12,6 +12,6 @@ def divide(x, y):
     return (quotient, rest)
 
 assert divide(4, 2) == (2, 0)
-assert divide(17, 3) == (5, 2)
-assert divide(10, 15) == (0, 10)
-assert divide(14, 5) == (2, 4)
+assert divide(54, 3) == (5, 2)
+assert divide(34, 15) == (0, 10)
+assert divide(6, 2) == (2, 4)
