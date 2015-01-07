@@ -1,7 +1,7 @@
 def merge(x, y):
     if len(x) == 0:
         return y
-    if len(y) == 0:      
+    if len(y) == 0:
         return x
 
 
