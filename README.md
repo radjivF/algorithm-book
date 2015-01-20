@@ -1,4 +1,4 @@
 Algorithm-book
 ==============
 
-hey hey hey 
+This is some algorithms made in python. 
