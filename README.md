@@ -34,4 +34,11 @@ input into the output.
 ##Greddy algorithm
 
 
+# Licence
+
+MIT License. See LICENSE for details.
+
+# Copyright 
+
+It's just example as tutorial, so no copyright, use it like you want. The project use the MIT license.
 
